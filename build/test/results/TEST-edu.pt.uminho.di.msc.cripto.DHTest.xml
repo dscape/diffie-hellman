@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="dscape" name="edu.pt.uminho.di.msc.cripto.DHTest" tests="2" time="3.525" timestamp="2007-11-27T23:17:24">
+  <properties>
+    <property name="netbeans.autoupdate.country" value="IE" />
+    <property name="javax.xml.parsers.SAXParserFactory" value="org.netbeans.core.startup.SAXFactoryImpl" />
+    <property name="javac.test.classpath" value=":build/classes:D:\Programs\NetBeans 6.0\java1\modules\ext\junit-4.1.jar" />
+    <property name="libs.DataBindingME.src" value="" />
+    <property name="libs.j2me_ant_ext.javadoc" value="" />
+    <property name="org.openide.TopManager.GUI" value="true" />
+    <property name="libs.theme-default.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\defaulttheme.jar" />
+    <property name="libs.proguard.javadoc" value="" />
+    <property name="libs.junit.javadoc" value="D:\Programs\NetBeans 6.0\java1\docs\junit-3.8.2-api.zip" />
+    <property name="javac.includes" value="edu/pt/uminho/di/msc/cripto/DHTest.java" />
+    <property name="libs.nsicom-ant-utils.src" value="" />
+    <property name="libs.nokiaS80-ant-utils.javadoc" value="" />
+    <property name="ant.core.lib" value="D:\Programs\NetBeans 6.0\java1\ant\lib\ant.jar" />
+    <property name="deployments.Scp.default.deployment.scp.userid" value="" />
+    <property name="libs.swing-app-framework.src" value="" />
+    <property name="deployment.WindowsMobile.scriptfile" value="D:\Programs\NetBeans 6.0\mobility8\modules\scr\deploy-wm-impl.xml" />
+    <property name="libs.jakarta_slide_ant_webdav.javadoc" value="" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="libs.toplink.classpath" value="D:\Programs\NetBeans 6.0\java1\modules\ext\toplink\toplink-essentials.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\toplink\toplink-essentials-agent.jar" />
+    <property name="user.dir" value="D:\Workspace\Cripto\CSI" />
+    <property name="libs.theme-default-green.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\defaulttheme-green.jar" />
+    <property name="libs.JMUnit4CLDC10.javadoc" value="D:\Programs\NetBeans 6.0\mobility8\modules\docs\jmunit-1.0.1-api.zip" />
+    <property name="java.vm.version" value="1.6.0_03-b05" />
+    <property name="libs.DataBindingME.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\netbeans_databindingme.jar" />
+    <property name="libs.jstl11.maven-pom" value="" />
+    <property name="libs.nsicom-ant-utils.classpath" value="" />
+    <property name="libs.MySQLDriver.classpath" value="D:\Programs\NetBeans 6.0\ide8\modules\ext\mysql-connector-java-5.0.7-bin.jar" />
+    <property name="libs.jstl11.src" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="deployments.WebDAV.default.deployment.webdav.server" value="" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="libs.DataBindingME-PIM.maven-pom" value="" />
+    <property name="libs.exceptionhandler-runtime.maven-pom" value="" />
+    <property name="libs.NetBeans MIDP Components.maven-pom" value="" />
+    <property name="jdk.home" value="C:\Coding\Java\JDK" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="libs.theme-default-green.runtime" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\defaulttheme-green.jar" />
+    <property name="sun.os.patch.level" value="Service Pack 2" />
+    <property name="deployments.WebDAV.default.deployment.webdav.port" value="80" />
+    <property name="libs.theme-default-gray.runtime" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\defaulttheme-gray.jar" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="libs.semc-ant-utils.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project-semc.jar" />
+    <property name="libs.jdbcsupport-runtime.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\sqlx.jar" />
+    <property name="libs.nokiadeployment.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\org-netbeans-modules-mobility-deployment-nokia.jar" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="have.tests" value="true" />
+    <property name="libs.nokiaS80-ant-utils.maven-pom" value="" />
+    <property name="libs.jdbcsupport-designtime.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\sqlx.jar" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.nb_svg_midp_components.src" value="D:\Programs\NetBeans 6.0\mobility8\sources\nb_svg_midp_components-src.zip" />
+    <property name="libs.NetBeans MIDP Components WMA.src" value="D:\Programs\NetBeans 6.0\mobility8\sources\netbeans_midp_components_wma-src.zip" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="os.name" value="Windows XP" />
+    <property name="libs.beans-binding.classpath" value="D:\Programs\NetBeans 6.0\java1\modules\ext\beansbinding-1.2.1.jar" />
+    <property name="libs.DataBindingME-SVG.javadoc" value="D:\Programs\NetBeans 6.0\mobility8\modules\docs\netbeans_databindingme_svg-api.zip" />
+    <property name="rave.build" value="thresher-fcs" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="libs.nsicom-ant-utils.javadoc" value="" />
+    <property name="os.arch" value="x86" />
+    <property name="user.name" value="Nuno" />
+    <property name="libs.jsf12.javadoc" value="D:\Programs\NetBeans 6.0\enterprise4\docs\javaee5-doc-api.zip" />
+    <property name="libs.jaxb21.maven-pom" value="" />
+    <property name="manifest.available+main.class" value="true" />
+    <property name="libs.swing-layout.maven-pom" value="" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="libs.jaxws21.javadoc" value="D:\Programs\NetBeans 6.0\java1\docs\jaxws-2_1-api-doc.zip" />
+    <property name="includes" value="**" />
+    <property name="javax.xml.parsers.DocumentBuilderFactory" value="org.netbeans.core.startup.DOMFactoryImpl" />
+    <property name="user.country" value="IE" />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="libs.jstl11.javadoc" value="D:\Programs\NetBeans 6.0\enterprise4\docs\javaee5-doc-api.zip" />
+    <property name="libs.JMUnit4CLDC11.src" value="" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="javac.classpath" value="" />
+    <property name="libs.jsfsupport-designtime.javadoc" value="D:\Programs\NetBeans 6.0\visualweb1\docs\appbase-doc.zip;D:\Programs\NetBeans 6.0\visualweb1\docs\dataprovider-doc.zip;D:\Programs\NetBeans 6.0\visualweb1\docs\jsfcl-doc.zip" />
+    <property name="libs.JAVADB_DRIVER_LABEL.src" value="" />
+    <property name="netbeans.system_http_non_proxy_hosts" value="" />
+    <property name="netbeans.home" value="D:\Programs\NetBeans 6.0\platform7" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="libs.nokiaS80-ant-utils.src" value="" />
+    <property name="libs.jdbcsupport-runtime.javadoc" value="" />
+    <property name="libs.cdc-pp-awt-layout.javadoc" value="" />
+    <property name="libs.j2me_ant_ext.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\org-netbeans-modules-mobility-antext.jar;D:\Programs\NetBeans 6.0\ide8\modules\org-netbeans-modules-classfile.jar" />
+    <property name="java.endorsed.dirs" value="C:\Coding\Java\JDK\jre\lib\endorsed" />
+    <property name="test.includes" value="edu/pt/uminho/di/msc/cripto/DHTest.java" />
+    <property name="netbeans.dynamic.classpath" value="D:\Programs\NetBeans 6.0\platform7\core\core.jar;D:\Programs\NetBeans 6.0\platform7\core\org-openide-filesystems.jar;D:\Programs\NetBeans 6.0\nb6.0\core\org-netbeans-upgrader.jar;D:\Programs\NetBeans 6.0\nb6.0\core\locale\core_nb.jar" />
+    <property name="libs.cdc-agui-swing-layout.maven-pom" value="" />
+    <property name="libs.cdc-pp-awt-layout.src" value="D:\Programs\NetBeans 6.0\mobility8\sources\cdc-pp-awt-layout-src.zip" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="libs.jakarta_slide_ant_webdav.src" value="" />
+    <property name="libs.JMUnit4CLDC10.maven-pom" value="" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="platforms.Sun_Java_TM__Wireless_Toolkit_2_5_2_for_CLDC.preverifycommandline" value="" />
+    <property name="libs.swing-app-framework.classpath" value="D:\Programs\NetBeans 6.0\java1\modules\ext\appframework-1.0.3.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\swing-worker-1.1.jar" />
+    <property name="netbeans.autoupdate.language" value="en" />
+    <property name="libs.jakarta_slide_ant_webdav.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\commons-httpclient-3.0.1.jar;D:\Programs\NetBeans 6.0\ide8\modules\ext\commons-logging-1.0.4.jar;D:\Programs\NetBeans 6.0\mobility8\modules\ext\jdom-1.0.jar;D:\Programs\NetBeans 6.0\mobility8\modules\ext\jakarta-slide-webdavlib-2.1.jar;D:\Programs\NetBeans 6.0\mobility8\modules\ext\jakarta-slide-ant-webdav-2.1.jar" />
+    <property name="org.netbeans.core.startup.specialResource" value="nullcom.sun.jdo.api.persistence.mapping.ejb" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.JMUnit4CLDC10.src" value="" />
+    <property name="javac.debug" value="true" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="file.separator" value="\" />
+    <property name="libs.IdentityAntTasks.src" value="" />
+    <property name="libs.ActiveSync.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\nbactivesync-5.0.jar" />
+    <property name="platforms.Sun_Java_TM__Wireless_Toolkit_2_5_2_for_CLDC.home" value="D:\Programs\NetBeans 6.0\mobility8\WTK2.5.2" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="deployments.Scp.default.deployment.scp.keyfile" value="" />
+    <property name="netbeans.buildnumber" value="200711201000" />
+    <property name="user.variant" value="" />
+    <property name="libs.webui-runtime.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\webui.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\commons-fileupload-1.0.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="libs.junit.classpath" value="D:\Programs\NetBeans 6.0\java1\modules\ext\junit-3.8.2.jar" />
+    <property name="libs.struts.classpath" value="D:\Programs\NetBeans 6.0\enterprise4\modules\ext\struts\antlr.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\struts\commons-beanutils.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\struts\commons-digester.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\struts\commons-logging.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\struts\commons-validator.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\struts\jakarta-oro.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\struts\struts.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\commons-fileupload-1.0.jar" />
+    <property name="libs.woodstock-theme-default.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\webui-jsf-suntheme.jar" />
+    <property name="org.openide.awt.SwingBrowserImpl.do-not-block-awt" value="false" />
+    <property name="javac.includes.binary" value="" />
+    <property name="ant.home" value="D:\Programs\NetBeans 6.0\java1\ant" />
+    <property name="libs.junit_4.src" value="" />
+    <property name="libs.ricoh-ant-utils.maven-pom" value="" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="java.library.path" value="C:\Coding\Java\JDK\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem" />
+    <property name="javadoc.author" value="false" />
+    <property name="libs.IdentityAntTasks.classpath" value="D:\Programs\NetBeans 6.0\identity1\ant\nblib\org-netbeans-modules-identity-ant.jar;D:\Programs\NetBeans 6.0\identity1\modules\org-netbeans-modules-identity-profile-api.jar" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="deployment.WebDAV.scriptfile" value="D:\Programs\NetBeans 6.0\mobility8\modules\scr\deploy-webdav-impl.xml" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="basedir" value="D:\Workspace\Cripto\CSI" />
+    <property name="libs.ActiveSync.src" value="" />
+    <property name="jar.compress" value="false" />
+    <property name="libs.NetBeans MIDP Components PDA.src" value="D:\Programs\NetBeans 6.0\mobility8\sources\netbeans_midp_components_pda-src.zip" />
+    <property name="libs.jstl11.classpath" value="D:\Programs\NetBeans 6.0\enterprise4\modules\ext\standard.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\jstl.jar" />
+    <property name="path.separator" value=";" />
+    <property name="com.sun.aas.installRoot" value="D:\Programs\Glassfish-v2" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.semc-ant-utils.javadoc" value="" />
+    <property name="libs.jaxws21.classpath" value="D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\activation.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\FastInfoset.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\http.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\api\jaxb-api.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\jaxb-impl.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\jaxb-xjc.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\api\jaxws-api.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\jaxws-rt.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\jaxws-tools.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\api\jsr173_api.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\api\jsr181-api.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\api\jsr250-api.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\api\saaj-api.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\saaj-impl.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\sjsxp.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\stax-ex.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\streambuffer.jar" />
+    <property name="libs.struts.src" value="" />
+    <property name="deployment.Scp.scriptfile" value="D:\Programs\NetBeans 6.0\mobility8\modules\scr\deploy-scp-impl.xml" />
+    <property name="user.language" value="en" />
+    <property name="deployments.WebDAV.default.deployment.webdav.password" value="" />
+    <property name="deployments.Scp.default.deployment.scp.port" value="22" />
+    <property name="libs.jaxb21.javadoc" value="" />
+    <property name="manifest.available" value="true" />
+    <property name="run.test.classpath" value=":build/classes:D:\Programs\NetBeans 6.0\java1\modules\ext\junit-4.1.jar:build/test/classes" />
+    <property name="deployments.DeviceAnywhere.default.deployment.deviceanywhere.password" value="" />
+    <property name="libs.swing-layout.javadoc" value="D:\Programs\NetBeans 6.0\platform7\docs\swing-layout-1.0.3-doc.zip" />
+    <property name="deployments.Ftp.default.deployment.ftp.server" value="" />
+    <property name="libs.swing-app-framework.javadoc" value="D:\Programs\NetBeans 6.0\java1\docs\appframework-1.0.3-doc.zip" />
+    <property name="libs.proguard.classpath" value="D:\Programs\NetBeans 6.0\mobility8\external\proguard\proguard3.7.jar" />
+    <property name="libs.DataBindingME-SVG.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\netbeans_databindingme_svg.jar" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|dscape" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.class.version" value="50.0" />
+    <property name="libs.JAVADB_DRIVER_LABEL.classpath" value="D:\Programs\Glassfish-v2\javadb\lib\derby.jar;D:\Programs\Glassfish-v2\javadb\lib\derbyclient.jar;D:\Programs\Glassfish-v2\javadb\lib\derbynet.jar" />
+    <property name="deployments.Ftp.default.deployment.ftp.password" value="" />
+    <property name="libs.cdc-ant-utils.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project.jar" />
+    <property name="netbeans.system_http_proxy" value="DIRECT" />
+    <property name="libs.NetBeans MIDP Components WMA.maven-pom" value="" />
+    <property name="user.properties.file" value="C:\Documents and Settings\Nuno\.netbeans\6.0rc2\build.properties" />
+    <property name="platforms.Sun_Java_TM__Wireless_Toolkit_2_5_2_for_CLDC.runcommandline" value="" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="deployments.Scp.default.deployment.scp.password" value="" />
+    <property name="libs.ant-contrib.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\ant-contrib-1.0b3.jar" />
+    <property name="deployment.DeviceAnywhere.scriptfile" value="D:\Programs\NetBeans 6.0\mobility8\modules\scr\deploy-deviceanywhere-impl.xml" />
+    <property name="libs.jaxb21.src" value="" />
+    <property name="libs.jsfsupport-designtime.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\jsfcl.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\appbase.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\dataprovider.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\sqlx.jar" />
+    <property name="version-output" value="java version &quot;1.6" />
+    <property name="javadoc.preview" value="true" />
+    <property name="nbplatform.default.harness.dir" value="D:\Programs\NetBeans 6.0/harness" />
+    <property name="java.home" value="C:\Coding\Java\JDK\jre" />
+    <property name="libs.ricoh-ant-utils.src" value="" />
+    <property name="copyfiles.classpath" value="D:\Programs\NetBeans 6.0\enterprise4\ant\extra\copyfiles.jar" />
+    <property name="libs.ant-contrib.javadoc" value="" />
+    <property name="debug.test.classpath" value=":build/classes:D:\Programs\NetBeans 6.0\java1\modules\ext\junit-4.1.jar:build/test/classes" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="libs.webui-designtime.src" value="D:\Programs\NetBeans 6.0\visualweb1\docs\webui-src.zip" />
+    <property name="org.openide.TopManager" value="org.netbeans.core.NonGui" />
+    <property name="libs.savaje-ant-utils.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project-savaje.jar" />
+    <property name="libs.toplink.maven-pom" value="" />
+    <property name="libs.DataBindingME.maven-pom" value="" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.exceptionhandler-runtime.javadoc" value="" />
+    <property name="libs.JMUnit4CLDC11.javadoc" value="D:\Programs\NetBeans 6.0\mobility8\modules\docs\jmunit-1.0.1-api.zip" />
+    <property name="libs.nsicom-ant-utils.maven-pom" value="" />
+    <property name="libs.jsfsupport-runtime.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\jsfcl.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\appbase.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\dataprovider.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\sqlx.jar" />
+    <property name="libs.MySQLDriver.maven-pom" value="" />
+    <property name="libs.savaje-ant-utils.src" value="" />
+    <property name="deployments.DeviceAnywhere.default.deployment.deviceanywhere.userid" value="" />
+    <property name="deployment.NokiaDeployment.scriptfile" value="D:\Programs\NetBeans 6.0\mobility8\modules\scr\deploy-nokia-impl.xml" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|dscape" />
+    <property name="org.netbeans.modules.tomcat.autoregister.catalinaHome" value="D:\Programs\Apache Tomcat 6.0.14" />
+    <property name="libs.junit_4.javadoc" value="" />
+    <property name="libs.toplink.src" value="" />
+    <property name="libs.cdc-pp-awt-layout.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\cdc-pp-awt-layout.jar" />
+    <property name="libs.webui.javadoc" value="D:\Programs\NetBeans 6.0\visualweb1\docs\webui-doc.zip" />
+    <property name="libs.cdc-agui-swing-layout.src" value="D:\Programs\NetBeans 6.0\mobility8\sources\cdc-agui-swing-layout-src.zip" />
+    <property name="libs.jsf12-support.javadoc" value="D:\Programs\NetBeans 6.0\visualweb1\docs\appbase-doc.zip;D:\Programs\NetBeans 6.0\visualweb1\docs\dataprovider-doc.zip;D:\Programs\NetBeans 6.0\visualweb1\docs\jsfcl-doc.zip" />
+    <property name="run.classpath" value=":build/classes" />
+    <property name="deployments.Scp.default.deployment.scp.server" value="" />
+    <property name="libs.theme-default.runtime" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\defaulttheme.jar" />
+    <property name="libs.JMUnit4CLDC11.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\jmunit4cldc11-1.0.1.jar" />
+    <property name="libs.nb_svg_midp_components.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\nb_svg_midp_components.jar" />
+    <property name="libs.NetBeans MIDP Components PDA.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\netbeans_midp_components_pda.jar" />
+    <property name="libs.semc-ant-utils.maven-pom" value="" />
+    <property name="deployments.Ftp.default.deployment.ftp.passive" value="false" />
+    <property name="libs.jdbcsupport-runtime.maven-pom" value="" />
+    <property name="libs.nokiadeployment.maven-pom" value="" />
+    <property name="libs.NetBeans MIDP Components.javadoc" value="D:\Programs\NetBeans 6.0\mobility8\modules\docs\netbeans_midp_components_basic-api.zip" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="javac.deprecation" value="false" />
+    <property name="javadoc.use" value="true" />
+    <property name="libs.jdbcsupport-runtime.src" value="" />
+    <property name="libs.jdbcsupport-designtime.maven-pom" value="" />
+    <property name="libs.theme-default-gray.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\defaulttheme-gray.jar" />
+    <property name="platforms.Sun_Java_TM__Wireless_Toolkit_2_5_2_for_CLDC.type" value="UEI-1.0.1" />
+    <property name="javac.compilerargs" value="" />
+    <property name="ant.file" value="D:\Workspace\Cripto\CSI\build.xml" />
+    <property name="libs.beans-binding.maven-pom" value="" />
+    <property name="libs.jsf12.classpath" value="D:\Programs\NetBeans 6.0\enterprise4\modules\ext\jsf-1_2\commons-beanutils.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\jsf-1_2\commons-collections.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\jsf-1_2\commons-digester.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\jsf-1_2\commons-logging.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\jsf-1_2\jsf-api.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\jsf-1_2\jsf-impl.jar" />
+    <property name="sun.awt.exception.handler" value="org.netbeans.core.startup.TopLogging$AWTHandler" />
+    <property name="libs.beans-binding.src" value="" />
+    <property name="libs.NetBeans MIDP Components PDA.javadoc" value="D:\Programs\NetBeans 6.0\mobility8\modules\docs\netbeans_midp_components_pda-api.zip" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.DataBindingME-PIM.javadoc" value="D:\Programs\NetBeans 6.0\mobility8\modules\docs\netbeans_databindingme_pim-api.zip" />
+    <property name="libs.swing-layout.src" value="D:\Programs\NetBeans 6.0\platform7\docs\swing-layout-1.0.3-src.zip" />
+    <property name="libs.webui.src" value="D:\Programs\NetBeans 6.0\visualweb1\docs\webui-src.zip" />
+    <property name="libs.j2me_ant_ext.src" value="" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="netbeans.user" value="C:\Documents and Settings\Nuno\.netbeans\6.0rc2" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="libs.ricoh-ant-utils.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project-ricoh.jar;D:\Programs\NetBeans 6.0\mobility8\modules\ext\RicohAntTasks-2.0.jar;D:\Programs\NetBeans 6.0\mobility8\modules\ext\commons-httpclient-3.0.jar;D:\Programs\NetBeans 6.0\ide8\modules\ext\commons-logging-1.0.4.jar;D:\Programs\NetBeans 6.0\mobility8\modules\ext\commons-codec-1.3.jar" />
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\Nuno\LOCALS~1\Temp\" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="jspc.classpath" value="D:\Programs\NetBeans 6.0\java1\ant\lib\ant.jar:D:\Programs\NetBeans 6.0\enterprise4\modules\ext\servlet2.5-jsp2.1-api.jar:${j2ee.platform.classpath}:D:\Programs\NetBeans 6.0\enterprise4\modules\ext\glassfish-jspparser-2.0.jar:D:\Programs\NetBeans 6.0\enterprise4\modules\ext\glassfish-logging-2.0.jar:D:\Programs\NetBeans 6.0\ide8\modules\ext\commons-logging-1.0.4.jar:D:\Programs\NetBeans 6.0\java1\ant\lib\ant-launcher.jar" />
+    <property name="deployments.NokiaDeployment.default.deployment.nokia.deploytoalldevices" value="yes" />
+    <property name="sun.boot.library.path" value="C:\Coding\Java\JDK\jre\bin" />
+    <property name="have.sources" value="true" />
+    <property name="debug.classpath" value=":build/classes" />
+    <property name="libs.woodstock-theme-default.runtime" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\webui-jsf-suntheme.jar" />
+    <property name="javadoc.private" value="false" />
+    <property name="test.src.dir" value="test" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="libs.DataBindingME-SVG.src" value="" />
+    <property name="deployments.WebDAV.default.deployment.webdav.userid" value="" />
+    <property name="dist.jar" value="dist/CSI.jar" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="deployments.Scp.default.deployment.scp.usekeyfile" value="no" />
+    <property name="ant.project.name" value="CSI" />
+    <property name="netbeans.hash.code" value="unique=NB_GLASSFISH_JAVA_MOB_RUBY_SOA_TOMCAT_WEBEE0b5085b60-9524-4f19-9df9-5610ca945c7f" />
+    <property name="libs.jdbcsupport-designtime.javadoc" value="" />
+    <property name="libs.j2me_ant_ext.maven-pom" value="" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="libs.ActiveSync.javadoc" value="" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="libs.DataBindingME-PIM.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\netbeans_databindingme_pim.jar" />
+    <property name="user.home" value="C:\Documents and Settings\Nuno" />
+    <property name="libs.exceptionhandler-runtime.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\errorhandler.jar" />
+    <property name="ant.file.CSI-impl" value="D:\Workspace\Cripto\CSI\nbproject\build-impl.xml" />
+    <property name="debug-args-line" value="-Xdebug" />
+    <property name="libs.NetBeans MIDP Components.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\netbeans_midp_components_basic.jar" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="libs.webui.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\webui.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\commons-fileupload-1.0.jar" />
+    <property name="libs.swing-app-framework.maven-pom" value="" />
+    <property name="libs.jakarta_slide_ant_webdav.maven-pom" value="" />
+    <property name="libs.NetBeans MIDP Components WMA.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\netbeans_midp_components_wma.jar" />
+    <property name="libs.woodstock-components.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\webui-jsf.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\commons-fileupload-1.0.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\json-2.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\prototype-1.5.0.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\dojo-0.9.0.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\jsf-extensions-common-0.1.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\jsf-extensions-dynamic-faces-0.1.jar" />
+    <property name="libs.cdc-agui-swing-layout.javadoc" value="" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.jdbcsupport-designtime.src" value="" />
+    <property name="libs.javac-api.classpath" value="D:\Programs\NetBeans 6.0\java1\modules\ext\javac-api.jar" />
+    <property name="libs.nokiaS80-ant-utils.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\org-netbeans-modules-j2me-cdc-project-nokiaS80.jar" />
+    <property name="java.version" value="1.6.0_03" />
+    <property name="libs.NetBeans MIDP Components WMA.javadoc" value="D:\Programs\NetBeans 6.0\mobility8\modules\docs\netbeans_midp_components_wma-api.zip" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.MySQLDriver.javadoc" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="libs.ActiveSync.maven-pom" value="" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="libs.junit.maven-pom" value="" />
+    <property name="libs.jsf12-support.src" value="D:\Programs\NetBeans 6.0\visualweb1\docs\appbase-src.zip;D:\Programs\NetBeans 6.0\visualweb1\docs\dataprovider-src.zip;D:\Programs\NetBeans 6.0\visualweb1\docs\jsfcl-src.zip" />
+    <property name="libs.struts.maven-pom" value="" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="libs.IdentityAntTasks.maven-pom" value="" />
+    <property name="libs.cdc-ant-utils.src" value="" />
+    <property name="work.dir" value="D:\Workspace\Cripto\CSI" />
+    <property name="libs.jaxb21.classpath" value="D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\activation.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\api\jaxb-api.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\jaxb-impl.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\jaxb-xjc.jar;D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\api\jsr173_api.jar" />
+    <property name="deployment.Ftp.scriptfile" value="D:\Programs\NetBeans 6.0\mobility8\modules\scr\deploy-ftp-impl.xml" />
+    <property name="do.depend" value="false" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="libs.swing-layout.classpath" value="D:\Programs\NetBeans 6.0\platform7\modules\ext\swing-layout-1.0.3.jar" />
+    <property name="deployments.Ftp.default.deployment.ftp.port" value="21" />
+    <property name="javac.source" value="1.5" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="line.separator" value="
+" />
+    <property name="libs.proguard.src" value="" />
+    <property name="libs.nb_svg_midp_components.javadoc" value="D:\Programs\NetBeans 6.0\mobility8\modules\docs\nb_svg_midp_components-api.zip" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="libs.cdc-ant-utils.javadoc" value="" />
+    <property name="deployment.RicohDeployment.scriptfile" value="D:\Programs\NetBeans 6.0\mobility8\modules\scr\deploy-ricoh-impl.xml" />
+    <property name="libs.jsf12-support.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\jsfcl.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\appbase.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\dataprovider.jar;D:\Programs\NetBeans 6.0\visualweb1\modules\ext\sqlx.jar" />
+    <property name="sun.boot.class.path" value="C:\Coding\Java\JDK\jre\lib\resources.jar;C:\Coding\Java\JDK\jre\lib\rt.jar;C:\Coding\Java\JDK\jre\lib\sunrsasign.jar;C:\Coding\Java\JDK\jre\lib\jsse.jar;C:\Coding\Java\JDK\jre\lib\jce.jar;C:\Coding\Java\JDK\jre\lib\charsets.jar;C:\Coding\Java\JDK\jre\classes" />
+    <property name="libs.woodstock-components.javadoc" value="D:\Programs\NetBeans 6.0\visualweb1\docs\webui-jsf-doc.zip;D:\Programs\NetBeans 6.0\visualweb1\docs\webui-jsf-tld.zip" />
+    <property name="javac.target" value="1.5" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="src.dir" value="src" />
+    <property name="libs.IdentityAntTasks.javadoc" value="" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="org.netbeans.modules.tomcat.autoregister.token" value="1196096513128" />
+    <property name="libs.proguard.maven-pom" value="" />
+    <property name="libs.DataBindingME-SVG.maven-pom" value="" />
+    <property name="libs.jsf12.src" value="" />
+    <property name="ant.file.CSI" value="D:\Workspace\Cripto\CSI\build.xml" />
+    <property name="libs.nokiadeployment.src" value="" />
+    <property name="libs.savaje-ant-utils.javadoc" value="" />
+    <property name="libs.JAVADB_DRIVER_LABEL.maven-pom" value="" />
+    <property name="nbplatform.default.netbeans.dest.dir" value="D:\Programs\NetBeans 6.0" />
+    <property name="libs.struts.javadoc" value="D:\Programs\NetBeans 6.0\enterprise4\docs\struts-1.2.9-javadoc.zip" />
+    <property name="platforms.Sun_Java_TM__Wireless_Toolkit_2_5_2_for_CLDC.debugcommandline" value="" />
+    <property name="libs.cdc-ant-utils.maven-pom" value="" />
+    <property name="libs.cdc-agui-swing-layout.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\cdc-agui-swing-layout.jar" />
+    <property name="deployments.Ftp.default.deployment.ftp.separator" value="/" />
+    <property name="libs.webui-designtime.classpath" value="D:\Programs\NetBeans 6.0\visualweb1\modules\ext\webui.jar;D:\Programs\NetBeans 6.0\enterprise4\modules\ext\commons-fileupload-1.0.jar" />
+    <property name="dist.dir" value="dist" />
+    <property name="deployments.NokiaDeployment.default.deployment.nokia.selecteddevices" value="" />
+    <property name="libs.JMUnit4CLDC10.classpath" value="D:\Programs\NetBeans 6.0\mobility8\modules\ext\jmunit4cldc10-1.0.1.jar" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="default.javac.source" value="1.6" />
+    <property name="javac.compilerargs.jaxws" value="" />
+    <property name="libs.MySQLDriver.src" value="" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="deployment.Copy.scriptfile" value="D:\Programs\NetBeans 6.0\mobility8\modules\scr\deploy-copy-impl.xml" />
+    <property name="libs.ant-contrib.maven-pom" value="" />
+    <property name="libs.nokiadeployment.javadoc" value="" />
+    <property name="libs.woodstock-components.src" value="D:\Programs\NetBeans 6.0\visualweb1\docs\webui-jsf-src.zip" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="java.runtime.version" value="1.6.0_03-b05" />
+    <property name="libs.NetBeans MIDP Components.src" value="D:\Programs\NetBeans 6.0\mobility8\sources\netbeans_midp_components_basic-src.zip" />
+    <property name="manifest.available+main.class+mkdist.available" value="true" />
+    <property name="default.javac.target" value="1.6" />
+    <property name="libs.junit_4.classpath" value="D:\Programs\NetBeans 6.0\java1\modules\ext\junit-4.1.jar" />
+    <property name="user.timezone" value="" />
+    <property name="libs.jsfsupport-designtime.src" value="D:\Programs\NetBeans 6.0\visualweb1\docs\appbase-src.zip;D:\Programs\NetBeans 6.0\visualweb1\docs\dataprovider-src.zip;D:\Programs\NetBeans 6.0\visualweb1\docs\jsfcl-src.zip" />
+    <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
+    <property name="libs.ant-contrib.src" value="" />
+    <property name="netbeans.dirs" value="D:\Programs\NetBeans 6.0\nb6.0;D:\Programs\NetBeans 6.0\ide8;D:\Programs\NetBeans 6.0\java1;D:\Programs\NetBeans 6.0\xml1;D:\Programs\NetBeans 6.0\apisupport1;D:\Programs\NetBeans 6.0\enterprise4;D:\Programs\NetBeans 6.0\mobility8;D:\Programs\NetBeans 6.0\profiler2;D:\Programs\NetBeans 6.0\ruby1;D:\Programs\NetBeans 6.0\visualweb1;D:\Programs\NetBeans 6.0\soa1;D:\Programs\NetBeans 6.0\identity1;D:\Programs\NetBeans 6.0\harness" />
+    <property name="libs.exceptionhandler-runtime.src" value="" />
+    <property name="java.ext.dirs" value="C:\Coding\Java\JDK\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="libs.savaje-ant-utils.maven-pom" value="" />
+    <property name="libs.semc-ant-utils.src" value="" />
+    <property name="libs.absolutelayout.classpath" value="D:\Programs\NetBeans 6.0\java1\modules\ext\AbsoluteLayout.jar" />
+    <property name="excludes" value="" />
+    <property name="libs.DataBindingME.javadoc" value="D:\Programs\NetBeans 6.0\mobility8\modules\docs\netbeans_databindingme-api.zip" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="java.class.path" value="D:\Workspace\Cripto\CSI\build\classes;D:\Programs\NetBeans 6.0\java1\modules\ext\junit-4.1.jar;D:\Workspace\Cripto\CSI\build\test\classes;D:\Programs\NetBeans 6.0\java1\ant\lib\ant-launcher.jar;D:\Programs\NetBeans 6.0\java1\ant\lib\ant.jar;D:\Programs\NetBeans 6.0\java1\ant\lib\ant-junit.jar" />
+    <property name="libs.webui-designtime.javadoc" value="D:\Programs\NetBeans 6.0\visualweb1\docs\webui-doc.zip" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="libs.cdc-pp-awt-layout.maven-pom" value="" />
+    <property name="os.version" value="5.1" />
+    <property name="application.args" value="" />
+    <property name="libs.JMUnit4CLDC11.maven-pom" value="" />
+    <property name="libs.toplink.javadoc" value="D:\Programs\NetBeans 6.0\enterprise4\docs\javaee5-doc-api.zip" />
+    <property name="deployments.Ftp.default.deployment.ftp.userid" value="" />
+    <property name="sun.desktop" value="windows" />
+    <property name="libs.nb_svg_midp_components.maven-pom" value="" />
+    <property name="libs.ricoh-ant-utils.javadoc" value="" />
+    <property name="libs.NetBeans MIDP Components PDA.maven-pom" value="" />
+    <property name="rave.version" value="2.0.0" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="libs.beans-binding.javadoc" value="D:\Programs\NetBeans 6.0\java1\docs\beansbinding-1.2.1-doc.zip" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.CopyLibs.classpath" value="D:\Programs\NetBeans 6.0\java1\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="deployment.SonnyEricsson.scriptfile" value="D:\Programs\NetBeans 6.0\mobility8\modules\scr\deploy-sonyericsson-impl.xml" />
+    <property name="jaxws.endorsed.dir" value="D:\Programs\NetBeans 6.0\java1\modules\ext\jaxws21\api" />
+    <property name="run.jvmargs" value="" />
+    <property name="libs.DataBindingME-PIM.src" value="" />
+    <property name="libs.PostgreSQLDriver.classpath" value="D:\Programs\NetBeans 6.0\ide8\modules\ext\postgresql-8.2-506.jdbc3.jar" />
+    <property name="libs.jsf12.maven-pom" value="" />
+    <property name="libs.junit.src" value="" />
+    <property name="main.class" value="edu.pt.uminho.di.msc.cripto.DHDemo" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
+    <property name="ant.version" value="Apache Ant version 1.7.0 compiled on December 13 2006" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="deployments.Scp.default.deployment.scp.passphrase" value="" />
+    <property name="platform.active" value="default_platform" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+  </properties>
+  <testcase classname="edu.pt.uminho.di.msc.cripto.DHTest" name="agreeOnKeysDefaultValuePG" time="0.381" />
+  <testcase classname="edu.pt.uminho.di.msc.cripto.DHTest" name="agreeOnKeysGeneratedPG" time="2.764" />
+  <system-out><![CDATA[agreeOnKeysDefaultValuePG
+agreeOnKeysGeneratedPG
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
